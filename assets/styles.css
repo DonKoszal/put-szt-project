@@ -62,7 +62,7 @@ nav button{
 
 .article{
     padding: 10px;
-    border: 1px solid rgb(18, 40, 141);
+    border: 2px solid rgb(18, 40, 141);
     position: relative;
     padding-bottom: 40px;
     min-width: 300px;
@@ -93,11 +93,28 @@ nav button{
     right: 0;
     bottom: 0;
     margin: 0;
-    color: #0f121f
 }
 
 .article-detail .article p{
     text-align: center;
+}
+
+.comment-author{
+    font-style: italic;
+}
+
+.comment{
+    border-bottom: 1px solid rgb(18, 40, 141);
+    padding: 5px 5px 0px 5px;
+    margin: 0;
+}
+
+.comments{
+    margin: 10px auto;
+    width: 75%;
+    text-align: center;
+    border: 2px solid rgb(18, 40, 141);
+    border-bottom: 1px solid rgb(18, 40, 141);
 }
 
 .site-form{
@@ -122,7 +139,6 @@ a.higlight{
 
 .helptext, .helptext ul{
     margin: 0 auto 20px;
-    color: #bbb;
     font-size: 0.9em;
     display: block;
 }
@@ -131,7 +147,6 @@ a.higlight{
     padding: 10px;
     list-style-type: none;
     border: 1px solid #ff5722;
-    color: #ff5722;
     margin: 10px 0;
 }
 
